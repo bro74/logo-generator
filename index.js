@@ -42,3 +42,20 @@ inquirer
 writeSVG('logo.svg', response)
 
 );
+
+
+function writeSVG(fileName, data) {
+    if (data.shape === 'Circle') {
+        const circle = new Circle(data.text, data.textColor, data.shapeColor);
+        fs.writeFile(fileName, circle.render(data.text, data.textColor, data.shapeColor), err =>
+        err ? console.error(err) : console.log("Generated logo.svg")
+     )} else if (data.shape === 'Triangle') {
+        const triangle = new Triangle(data.text, data.textColor, data.shapeColor);
+        fs.writeFile(fileName, triangle.render(data.text, data.textColor, data.shapeColor), err =>
+        err ? console.error(err) : console.log("Generated logo.svg")
+     )} else {
+        const square = new Square(data.text, data.textColor, data.shapeColor);
+        fs.writeFile(fileName, square.render(data.text, data.textColor, data.shapeColor), err =>
+        err ? console.error(err) : console.log("Generated logo.svg")
+     )}
+}
