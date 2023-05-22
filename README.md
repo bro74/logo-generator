@@ -10,7 +10,10 @@ This app uses node.js and npm i inquirer-maxlength-input-prompt..
 *[Node.js](https://nodejs.org/en)
 *[Inquirer package](https://www.npmjs.com/package/inquirer-maxlength-input-prompt)
 
-#### Installation 
+#### Usage 
+[Walk-through tutorial](https://watch.screencastify.com/v/tWDyZpUKtSPOlbqRlRcm)
+
+##### Installation 
 1. Navigate to the repository
 2. Click code
 3. Clone to your computer
@@ -22,6 +25,5 @@ This app uses node.js and npm i inquirer-maxlength-input-prompt..
 9. Follow the generator's prompt within the integrated terminal 
 10. Open live server to view logo.svg
 
-###### Liscense 
-
+####### Liscense 
 [This app uses MIT Liscense](https://opensource.org/license/mit/)
