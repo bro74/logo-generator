@@ -43,7 +43,6 @@ writeSVG('logo.svg', response)
 
 );
 
-
 function writeSVG(fileName, data) {
     if (data.shape === 'Circle') {
         const circle = new Circle(data.text, data.textColor, data.shapeColor);
